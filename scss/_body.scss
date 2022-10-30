@@ -1,8 +1,40 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    background-color: $Blanco;
+    justify-content: center;
+    align-items: center;
 }
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    color: black;
+    text-shadow: 0 0 5px;
+    text-transform: capitalize;
+}
+
+.nav-link:hover {
+    color: gray;
+}
+
+.box {
+    border: solid;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    height: 35rem;
+    display: inline-block;
+}
+header h2 {
+    color: white;
+    background: black;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+
 body {
     background-color: white;
     justify-content: center;
@@ -198,4 +230,9 @@ main {
 .img2 {
     display: inline-block;
     justify-content: right;
+}
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
