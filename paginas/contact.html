@@ -49,65 +49,53 @@
         <h1 class="title">Contacto</h1>
         <form>
             <div class="container mt-3">
-                <h3>Form Validation</h3>
-                <p>Try to submit the form.</p>
+                <h3>Dejanos tu opinión</h3>
+                <p>Requeriremos algunos datos para enriquecer nuestros servicios</p>
 
                 <form action="/action_page.php" class="was-validated">
                     <div class="mb-3 mt-3">
-                        <label for="uname" class="form-label">Username:</label>
-                        <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname"
+                        <label for="uname" class="form-label">Nombre y Apellido</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Nombre y Apellido" name="uname"
                             required>
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                     <div class="mb-3">
-                        <label for="pwd" class="form-label">Password:</label>
-                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd"
+                        <label for="pwd" class="form-label">Domicilio</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Domicilio" name="uname"
+                            required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="pwd" class="form-label">Estado civil</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Soltero/Viudo/Casado" name="uname"
+                            required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="pwd" class="form-label">Sexo</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Femenino o Masculino" name="uname"
+                            required>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="pwd" class="form-label">Deseas recibir promociones? </label>
+                        <input type="text" class="form-control" id="uname" placeholder="Si/No" name="uname"
                             required>
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                     </div>
                     <div class="form-check mb-3">
                         <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
-                        <label class="form-check-label" for="myCheck">I agree on blabla.</label>
+                        <label class="form-check-label" for="myCheck"> Acepto terminos y condiciones </label>
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Check this checkbox to continue.</div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
 
-            <div>
-                <label> Nombre: </label>
-                <input type="text">
-            </div>
-            <div>
-                <label> Apellido </label>
-                <input type="text">
-            </div>
-            <div>
-                <label> E-mail: </label>
-                <input type="email">
-            </div>
-            <div>
-                <label> Estado Civil</label>
-                <input type="list" list="estadocivil">
-                <datalist id="estadocivil">
-                    <option value="Soltera/o">Soltera/o</option>
-                    <option value="Casada/o">Casada/o</option>
-                    <option value="Viuda/o">Viuda/o</option>
-                </datalist>
-            </div>
-            <div>
-                <label> Desea recibir promociones? </label>
-            </div>
-            <input type="text">
-            </div>
-            <div>
-                <button> Limpiar formulario</button>
-            </div>
-            <button> Enviar formulario </button>
-        </form>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
