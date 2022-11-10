@@ -20,22 +20,6 @@ body {
     color: gray;
 }
 
-.box {
-    border: solid;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    height: 35rem;
-    display: inline-block;
-}
-
-.imagencentrada{
-    text-align: center;
-    padding: 20px;
-    width: 49%;
-}
-.textojustificado{
-    width: 49%;
-}
 .navbar {
     display: flex;
     justify-content: center;
@@ -45,14 +29,6 @@ body {
     color: black;
     text-shadow: 0 0 5px;
     text-transform: capitalize;
-}
-
-.box {
-    border: solid;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    height: 35rem;
-    display: inline-block;
 }
 
 a {
@@ -86,43 +62,10 @@ caption {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.mainp {
-    color: black;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 25px;
-    margin-right: 10px;
-    margin-bottom: 25px;
-    margin-left: 15px;
-    justify-content: center;
-    display: inline-block
-}
-
-main h3 {
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    justify-content: center;
-}
-
-p {
-    color: black;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 25px;
-    margin-right: 10px;
-    margin-bottom: 25px;
-    margin-left: 15px;
-    justify-content: center;
-    display: inline-block
-}
-
 iframe {
     margin-top: 25px;
     margin-right: 0px;
     margin-bottom: 25px;
-    margin-left: 450px;
-    justify-content: center;
     display: inline-block
 }
 .history {
@@ -133,15 +76,8 @@ iframe {
 }
 
 #item1 {
-    display: inline-flex;
+    display: flex;
     justify-content: right;
-}
-
-img {
-    height: auto;
-    width: auto;
-    max-width: 400px;
-    max-height: 400px;
 }
 
 .animaciones {
@@ -169,16 +105,8 @@ h3 {
 li {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    display: inline;
+    display: flex;
     justify-content: center;
-    margin-left: 150px;
-}
-
-main {
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-bottom: 55px;
-    margin-left: 50px;
 }
 
 .img2 {

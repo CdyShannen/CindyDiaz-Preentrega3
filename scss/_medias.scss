@@ -91,12 +91,13 @@
     filter: brightness(100%);
 }
 
-.nav-link:hover {
-    color: gray;
-}
-
 .container-fluid {
     display: flex;
     justify-content: center;
     text-align: center;
 }
+@media (max-width: 1200px){
+    #item1 {
+      flex-direction: column;
+      align-items: center; }
+  } 

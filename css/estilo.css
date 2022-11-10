@@ -17,7 +17,8 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  justify-content: center; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -120,13 +121,15 @@ table {
 .galeria :hover {
   filter: brightness(100%); }
 
-.nav-link:hover {
-  color: gray; }
-
 .container-fluid {
   display: flex;
   justify-content: center;
   text-align: center; }
+
+@media (max-width: 1200px) {
+  #item1 {
+    flex-direction: column;
+    align-items: center; } }
 
 body {
   justify-content: center;
@@ -145,21 +148,6 @@ body {
 .nav-link:hover {
   color: gray; }
 
-.box {
-  border: solid;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  height: 35rem;
-  display: inline-block; }
-
-.imagencentrada {
-  text-align: center;
-  padding: 20px;
-  width: 49%; }
-
-.textojustificado {
-  width: 49%; }
-
 .navbar {
   display: flex;
   justify-content: center; }
@@ -168,13 +156,6 @@ body {
   color: black;
   text-shadow: 0 0 5px;
   text-transform: capitalize; }
-
-.box {
-  border: solid;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  height: 35rem;
-  display: inline-block; }
 
 a {
   text-decoration: solid;
@@ -203,34 +184,6 @@ caption {
   font-size: 2, 5rem;
   font-family: 'Times New Roman', Times, serif; }
 
-.mainp {
-  color: black;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  margin-top: 25px;
-  margin-right: 10px;
-  margin-bottom: 25px;
-  margin-left: 15px;
-  justify-content: center;
-  display: inline-block; }
-
-main h3 {
-  font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
-  display: flex;
-  justify-content: center; }
-
-p {
-  color: black;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  margin-top: 25px;
-  margin-right: 10px;
-  margin-bottom: 25px;
-  margin-left: 15px;
-  justify-content: center;
-  display: inline-block; }
-
 iframe {
   margin-top: 25px;
   margin-right: 0px;
@@ -246,14 +199,8 @@ iframe {
   object-fit: cover; }
 
 #item1 {
-  display: inline-flex;
+  display: flex;
   justify-content: right; }
-
-img {
-  height: auto;
-  width: auto;
-  max-width: 400px;
-  max-height: 400px; }
 
 .animaciones {
   width: 400px;
@@ -280,12 +227,6 @@ li {
   font-family: 'Times New Roman', Times, serif;
   display: inline;
   justify-content: center;
-  margin-left: 150px; }
-
-main {
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-bottom: 55px;
   margin-left: 50px; }
 
 .img2 {
@@ -328,6 +269,21 @@ main {
     margin-right: 50px;
     margin-bottom: 55px;
     margin-left: 50px; }
+    .contenedor main h3 {
+      font-size: 25px;
+      font-family: 'Times New Roman', Times, serif;
+      display: flex;
+      justify-content: center; }
+    .contenedor main p {
+      color: black;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 25px;
+      margin-right: 10px;
+      margin-bottom: 25px;
+      margin-left: 15px;
+      justify-content: center;
+      display: inline-block; }
     .contenedor main button {
       color: black; }
     .contenedor main h1 {
@@ -427,7 +383,6 @@ main {
       border: solid;
       margin-bottom: 2rem;
       margin-top: 2rem;
-      height: 35rem;
       display: inline-block; }
     .contenedor main .title {
       font-size: 5rem;
@@ -442,8 +397,7 @@ main {
       justify-content: center; }
     .contenedor main .imagencentrada {
       text-align: center;
-      padding: 20px;
-      width: 49%; }
+      padding: 20px; }
     .contenedor main .textojustificado {
       width: 49%; }
     .contenedor main p {
