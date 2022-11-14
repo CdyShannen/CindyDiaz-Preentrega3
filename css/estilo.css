@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1,
+.contenedor main .title, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -148,10 +149,6 @@ body {
 .nav-link:hover {
   color: gray; }
 
-.navbar {
-  display: flex;
-  justify-content: center; }
-
 .nav-link {
   color: black;
   text-shadow: 0 0 5px;
@@ -163,7 +160,9 @@ a {
   font-size: 2rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
-h1 {
+
+h1,
+.contenedor main .title {
   color: white;
   font-size: 4rem;
   font-family: 'Times New Roman', Times, serif;
@@ -188,8 +187,6 @@ iframe {
   margin-top: 25px;
   margin-right: 0px;
   margin-bottom: 25px;
-  margin-left: 450px;
-  justify-content: center;
   display: inline-block; }
 
 .history {
@@ -227,7 +224,7 @@ li {
   font-family: 'Times New Roman', Times, serif;
   display: inline;
   justify-content: center;
-  margin-left: 50px; }
+  margin: 0 7px; }
 
 .img2 {
   display: inline-block;
@@ -286,7 +283,7 @@ li {
       display: inline-block; }
     .contenedor main button {
       color: black; }
-    .contenedor main h1 {
+    .contenedor main h1, .contenedor main .title {
       color: black;
       font-size: 40px;
       font-family: "Allura", cursive;
@@ -294,6 +291,8 @@ li {
       margin-bottom: 0;
       display: inline-block;
       margin: auto; }
+    .contenedor main .title {
+      border-radius: 20px; }
     .contenedor main figure .container-fluid {
       display: flex;
       justify-content: center;
@@ -301,10 +300,9 @@ li {
     .contenedor main figure .container {
       position: relative;
       display: flex;
-      justify-content: inline;
-      flex-wrap: wrap;
-      margin: auto;
-      display: inline-flexbox; }
+      justify-content: center;
+      flex-direction: column;
+      margin: auto; }
     .contenedor main figure .container figure {
       position: relative;
       height: 250px;
@@ -351,9 +349,8 @@ li {
       margin: auto; }
     .contenedor main figure img {
       height: auto;
-      width: auto;
-      max-width: 400px;
-      max-height: 400px; }
+      width: 100%;
+      max-width: 400px; }
     .contenedor main figure .capa h3 {
       color: black;
       font-size: 1.5rem;
@@ -384,11 +381,6 @@ li {
       margin-bottom: 2rem;
       margin-top: 2rem;
       display: inline-block; }
-    .contenedor main .title {
-      font-size: 5rem;
-      font-family: "Times New Roman", Times, serif;
-      justify-content: center;
-      margin-bottom: 0; }
     .contenedor main h2 {
       color: black;
       font-size: 2.5rem;
@@ -423,7 +415,7 @@ li {
   from {
     transform: scale(1.05); } }
     .contenedor main .galeria {
-      width: 400px;
+      width: 100%;
       height: 300px;
       margin-bottom: 30px;
       object-fit: cover;

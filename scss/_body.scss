@@ -20,11 +20,6 @@ body {
     color: gray;
 }
 
-.navbar {
-    display: flex;
-    justify-content: center;
-}
-
 .nav-link {
     color: black;
     text-shadow: 0 0 5px;
@@ -105,8 +100,9 @@ h3 {
 li {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    display: flex;
+    display: inline;
     justify-content: center;
+    margin: 0 7px;
 }
 
 .img2 {
