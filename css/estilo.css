@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 html, body, div, span, applet, object, iframe,
 h1,
-.contenedor main .title, h2, h3, h4, h5, h6, p, blockquote, pre,
+.contenedor main .historia, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, em, img, .contenedor main .imghis, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -62,7 +62,7 @@ table {
   box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.5);
   cursor: pointer; }
 
-.container figure img {
+.container figure img, .container figure .contenedor main .imghis, .contenedor main .container figure .imghis {
   width: 100%;
   height: 100%;
   transition: all 500ms ease-out; }
@@ -86,7 +86,7 @@ table {
   margin-top: 70px;
   margin-bottom: 15px; }
 
-.container figure:hover > img {
+.container figure:hover > img, .container .contenedor main figure:hover > .imghis, .contenedor main .container figure:hover > .imghis {
   transform: scale 1.3; }
 
 .container figure .capa h3 {
@@ -144,7 +144,8 @@ body {
 
 .nav-link {
   text-shadow: 0 0 5px;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  justify-content: center; }
 
 .nav-link:hover {
   color: gray; }
@@ -152,7 +153,8 @@ body {
 .nav-link {
   color: black;
   text-shadow: 0 0 5px;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  justify-content: center; }
 
 a {
   text-decoration: solid;
@@ -162,7 +164,7 @@ a {
 
 
 h1,
-.contenedor main .title {
+.contenedor main .historia {
   color: white;
   font-size: 4rem;
   font-family: 'Times New Roman', Times, serif;
@@ -173,9 +175,9 @@ h2 {
   color: black;
   font-size: 35px;
   font-family: 'Times New Roman', Times, serif;
-  display: inline-block;
   justify-content: center;
   margin: 0;
+  display: flex;
   padding: 10px; }
 
 caption {
@@ -251,7 +253,7 @@ li {
     font-family: "Allura", cursive;
     justify-content: center;
     margin-bottom: 0;
-    display: inline-block;
+    display: inline;
     margin: auto; }
   .contenedor header .subtitle {
     color: black;
@@ -266,15 +268,10 @@ li {
     margin-right: 50px;
     margin-bottom: 55px;
     margin-left: 50px; }
-    .contenedor main h3 {
-      font-size: 25px;
-      font-family: 'Times New Roman', Times, serif;
-      display: flex;
-      justify-content: center; }
     .contenedor main p {
       color: black;
       font-size: 20px;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: "Times New Roman", Times, serif;
       margin-top: 25px;
       margin-right: 10px;
       margin-bottom: 25px;
@@ -283,16 +280,14 @@ li {
       display: inline-block; }
     .contenedor main button {
       color: black; }
-    .contenedor main h1, .contenedor main .title {
+    .contenedor main h1, .contenedor main .historia {
       color: black;
-      font-size: 40px;
+      font-size: 50px;
       font-family: "Allura", cursive;
       justify-content: center;
-      margin-bottom: 0;
-      display: inline-block;
-      margin: auto; }
-    .contenedor main .title {
-      border-radius: 20px; }
+      display: flex;
+      margin: auto;
+      padding: 10px; }
     .contenedor main figure .container-fluid {
       display: flex;
       justify-content: center;
@@ -312,7 +307,7 @@ li {
       border-radius: 6px;
       box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.5);
       cursor: pointer; }
-    .contenedor main figure .container figure img {
+    .contenedor main figure .container figure img, .contenedor main figure .container figure .imghis {
       width: 100%;
       height: 100%;
       transition: all 500ms ease-out; }
@@ -332,7 +327,7 @@ li {
     .contenedor main figure .container figure:hover > .capa h3 {
       margin-top: 70px;
       margin-bottom: 15px; }
-    .contenedor main figure .container figure:hover > img {
+    .contenedor main figure .container figure:hover > img, .contenedor main figure .container figure:hover > .imghis {
       transform: scale 1.3; }
     .contenedor main figure .container figure .capa h3 {
       color: #fff;
@@ -347,7 +342,7 @@ li {
       width: 100%;
       max-width: 220px;
       margin: auto; }
-    .contenedor main figure img {
+    .contenedor main figure img, .contenedor main figure .imghis {
       height: auto;
       width: 100%;
       max-width: 400px; }
@@ -372,7 +367,7 @@ li {
       font-size: 50px; }
     .contenedor main figure h2 {
       color: black;
-      font-size: 2.5rem;
+      font-size: 30px;
       font-family: "Times New Roman", Times, serif;
       display: flex;
       justify-content: center; }
@@ -381,12 +376,6 @@ li {
       margin-bottom: 2rem;
       margin-top: 2rem;
       display: inline-block; }
-    .contenedor main h2 {
-      color: black;
-      font-size: 2.5rem;
-      font-family: "Times New Roman", Times, serif;
-      display: flex;
-      justify-content: center; }
     .contenedor main .imagencentrada {
       text-align: center;
       padding: 20px; }
@@ -404,10 +393,11 @@ li {
       display: inline-block; }
     .contenedor main h3 {
       color: black;
-      font-size: 25px;
-      font-family: "Times New Roman", Times, serif;
+      font-size: 35px;
+      font-family: "Allura";
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      margin-bottom: 20px; }
 
 @keyframes escalar {
   to {
