@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 html, body, div, span, applet, object, iframe,
 h1,
-.contenedor main .historia, h2, h3, h4, h5, h6, p, blockquote, pre,
+.contenedor main .historia, h2, h3, h4, h5, h6, p, .contenedor main label, .contenedor main figure .capa p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, .contenedor main .imghis, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -96,7 +96,7 @@ table {
   transition: all 500ms ease-out;
   margin-top: 30px; }
 
-.container figure .capa p {
+.container figure .capa p, .container figure .capa .contenedor main label, .contenedor main .container figure .capa label, .container .contenedor main figure .capa p, .contenedor main .container figure .capa p {
   color: black;
   font-size: 15px;
   line-height: 1.5;
@@ -267,7 +267,7 @@ li {
     justify-content: center;
     margin: auto;
     padding: 10px; }
-  .contenedor main p {
+  .contenedor main p, .contenedor main label, .contenedor main figure .capa p {
     color: black;
     font-size: 20px;
     font-family: "Times New Roman", Times, serif;
@@ -334,7 +334,7 @@ li {
     margin-bottom: 120px;
     transition: all 500ms ease-out;
     margin-top: 30px; }
-  .contenedor main figure .container figure .capa p {
+  .contenedor main figure .container figure .capa label, .contenedor main figure .container figure .capa p {
     color: black;
     font-size: 15px;
     line-height: 1.5;
@@ -351,16 +351,6 @@ li {
     font-family: "Times New Roman", Times, serif;
     display: flex;
     justify-content: center; }
-  .contenedor main figure .capa p {
-    color: black;
-    font-size: 20px;
-    font-family: "Times New Roman", Times, serif;
-    margin-top: 25px;
-    margin-right: 10px;
-    margin-bottom: 25px;
-    margin-left: 15px;
-    justify-content: center;
-    display: inline-block; }
   .contenedor main figure .Promociones {
     color: black;
     font-size: 50px; }
@@ -380,7 +370,7 @@ li {
     padding: 20px; }
   .contenedor main .textojustificado {
     width: 49%; }
-  .contenedor main p {
+  .contenedor main p, .contenedor main label, .contenedor main figure .capa p {
     color: black;
     font-size: 20px;
     font-family: "Times New Roman", Times, serif;

@@ -52,6 +52,10 @@
             display: inline-block;
         }
 
+        label{
+            @extend p;
+        }
+
         button {
             color: black;
         }
@@ -156,15 +160,7 @@
                     justify-content: center;
                 }
                 p {
-                    color: black;
-                    font-size: 20px;
-                    font-family: "Times New Roman", Times, serif;
-                    margin-top: 25px;
-                    margin-right: 10px;
-                    margin-bottom: 25px;
-                    margin-left: 15px;
-                    justify-content: center;
-                    display: inline-block;
+                    @extend p;
                 }
             }
             .Promociones {
