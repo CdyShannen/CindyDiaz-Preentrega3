@@ -229,7 +229,8 @@ li {
   font-family: 'Times New Roman', Times, serif;
   display: inline;
   justify-content: center;
-  margin: 0 7px; }
+  margin: 0 25px;
+  color: black; }
 
 .img2 {
   display: inline-block;
@@ -266,165 +267,160 @@ li {
     justify-content: center;
     margin: auto;
     padding: 10px; }
-  .contenedor main {
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-bottom: 55px;
-    margin-left: 50px; }
-    .contenedor main p {
-      color: black;
-      font-size: 20px;
-      font-family: "Times New Roman", Times, serif;
-      margin-top: 25px;
-      margin-right: 10px;
-      margin-bottom: 25px;
-      margin-left: 15px;
-      justify-content: center;
-      display: inline-block; }
-    .contenedor main button {
-      color: black; }
-    .contenedor main h1, .contenedor main .historia {
-      color: black;
-      font-size: 50px;
-      font-family: "Allura", cursive;
-      justify-content: center;
-      display: flex;
-      margin: auto;
-      padding: 10px; }
-    .contenedor main figure .container-fluid {
-      display: flex;
-      justify-content: center;
-      text-align: center; }
-    .contenedor main figure .container {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      margin: auto; }
-    .contenedor main figure .container figure {
-      position: relative;
-      height: 250px;
-      width: 23%;
-      margin: 5px;
-      overflow: hidden;
-      border-radius: 6px;
-      box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.5);
-      cursor: pointer; }
-    .contenedor main figure .container figure img, .contenedor main figure .container figure .imghis {
-      width: 100%;
-      height: 100%;
-      transition: all 500ms ease-out; }
-    .contenedor main figure .container figure .capa {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 103, 123, 0);
-      transition: all 500ms ease-out;
-      opacity: 0;
-      visibility: hidden;
-      text-align: center; }
-    .contenedor main figure .container figure:hover > .capa {
-      opacity: 1;
-      visibility: visible; }
-    .contenedor main figure .container figure:hover > .capa h3 {
-      margin-top: 70px;
-      margin-bottom: 15px; }
-    .contenedor main figure .container figure:hover > img, .contenedor main figure .container figure:hover > .imghis {
-      transform: scale 1.3; }
-    .contenedor main figure .container figure .capa h3 {
-      color: #fff;
-      font-weight: 400px;
-      margin-bottom: 120px;
-      transition: all 500ms ease-out;
-      margin-top: 30px; }
-    .contenedor main figure .container figure .capa p {
-      color: black;
-      font-size: 15px;
-      line-height: 1.5;
-      width: 100%;
-      max-width: 220px;
-      margin: auto; }
-    .contenedor main figure img, .contenedor main figure .imghis {
-      height: auto;
-      width: 100%;
-      max-width: 400px; }
-    .contenedor main figure .capa h3 {
-      color: black;
-      font-size: 1.5rem;
-      font-family: "Times New Roman", Times, serif;
-      display: flex;
-      justify-content: center; }
-    .contenedor main figure .capa p {
-      color: black;
-      font-size: 20px;
-      font-family: "Times New Roman", Times, serif;
-      margin-top: 25px;
-      margin-right: 10px;
-      margin-bottom: 25px;
-      margin-left: 15px;
-      justify-content: center;
-      display: inline-block; }
-    .contenedor main figure .Promociones {
-      color: black;
-      font-size: 50px; }
-    .contenedor main figure h2 {
-      color: black;
-      font-size: 30px;
-      font-family: "Times New Roman", Times, serif;
-      display: flex;
-      justify-content: center; }
-    .contenedor main .box {
-      border: solid;
-      margin-bottom: 2rem;
-      margin-top: 2rem;
-      display: inline-block; }
-    .contenedor main .imagencentrada {
-      text-align: center;
-      padding: 20px; }
-    .contenedor main .textojustificado {
-      width: 49%; }
-    .contenedor main p {
-      color: black;
-      font-size: 20px;
-      font-family: "Times New Roman", Times, serif;
-      margin-top: 25px;
-      margin-right: 10px;
-      margin-bottom: 25px;
-      margin-left: 15px;
-      justify-content: center;
-      display: inline-block; }
-    .contenedor main h3 {
-      color: black;
-      font-size: 35px;
-      font-family: "Allura";
-      display: flex;
-      justify-content: center;
-      margin-bottom: 20px; }
+  .contenedor main p {
+    color: black;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    justify-content: center;
+    display: inline-block; }
+  .contenedor main button {
+    color: black; }
+  .contenedor main h1, .contenedor main .historia {
+    color: black;
+    font-size: 50px;
+    font-family: "Allura", cursive;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding: 10px; }
+  .contenedor main figure .container-fluid {
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+  .contenedor main figure .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto; }
+  .contenedor main figure .container figure {
+    position: relative;
+    height: 250px;
+    width: 23%;
+    margin: 5px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.5);
+    cursor: pointer; }
+  .contenedor main figure .container figure img, .contenedor main figure .container figure .imghis {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out; }
+  .contenedor main figure .container figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 103, 123, 0);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center; }
+  .contenedor main figure .container figure:hover > .capa {
+    opacity: 1;
+    visibility: visible; }
+  .contenedor main figure .container figure:hover > .capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px; }
+  .contenedor main figure .container figure:hover > img, .contenedor main figure .container figure:hover > .imghis {
+    transform: scale 1.3; }
+  .contenedor main figure .container figure .capa h3 {
+    color: #fff;
+    font-weight: 400px;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px; }
+  .contenedor main figure .container figure .capa p {
+    color: black;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto; }
+  .contenedor main figure img, .contenedor main figure .imghis {
+    height: auto;
+    width: 100%;
+    max-width: 400px; }
+  .contenedor main figure .capa h3 {
+    color: black;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    justify-content: center; }
+  .contenedor main figure .capa p {
+    color: black;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    justify-content: center;
+    display: inline-block; }
+  .contenedor main figure .Promociones {
+    color: black;
+    font-size: 50px; }
+  .contenedor main figure h2 {
+    color: black;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    justify-content: center; }
+  .contenedor main .box {
+    border: solid;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: inline-block; }
+  .contenedor main .imagencentrada {
+    text-align: center;
+    padding: 20px; }
+  .contenedor main .textojustificado {
+    width: 49%; }
+  .contenedor main p {
+    color: black;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    justify-content: center;
+    display: inline-block; }
+  .contenedor main h3 {
+    color: black;
+    font-size: 35px;
+    font-family: "Allura";
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; }
 
 @keyframes escalar {
   to {
     transform: scale(1); }
   from {
     transform: scale(1.05); } }
-    .contenedor main .galeria {
-      width: 100%;
-      height: 300px;
-      margin-bottom: 30px;
-      object-fit: cover;
-      filter: brightness(70%);
-      cursor: pointer;
-      animation: escalar 1.5s; }
-      .contenedor main .galeria:hover {
-        filter: brightness(100%); }
-    .contenedor main .animaciones {
-      width: 400px;
-      height: 300px;
-      margin-bottom: 30px;
-      object-fit: cover;
-      filter: brightness(70%);
-      display: inline-block;
-      padding-top: 20px;
-      transition: all 0.5s; }
-      .contenedor main .animaciones:hover {
-        transform: rotate3d 0.9; }
+  .contenedor main .galeria {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+    cursor: pointer;
+    animation: escalar 1.5s; }
+    .contenedor main .galeria:hover {
+      filter: brightness(100%); }
+  .contenedor main .animaciones {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+    display: inline-block;
+    padding-top: 20px;
+    transition: all 0.5s; }
+    .contenedor main .animaciones:hover {
+      transform: rotate3d 0.9; }
