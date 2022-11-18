@@ -3,7 +3,6 @@ body {
     align-items: center;
     background-image: url(https://cdn.pixabay.com/photo/2015/05/09/17/09/towel-759980_960_720.jpg);
     background-size: cover;
-    
 }
 
 .navbar {
@@ -27,7 +26,7 @@ body {
     text-transform: capitalize;
     justify-content: center;
 }
-.nav-item{
+.nav-item {
     justify-content: center;
 }
 
@@ -35,13 +34,14 @@ a {
     text-decoration: solid;
     color: black;
     font-size: 2rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+        "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 h1 {
     color: white;
     font-size: 4rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     display: flex;
     justify-content: center;
 }
@@ -49,7 +49,7 @@ h1 {
 h2 {
     color: black;
     font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     justify-content: center;
     margin: 0;
     display: flex;
@@ -59,14 +59,14 @@ h2 {
 caption {
     color: white;
     font-size: 2, 5rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 iframe {
     margin-top: 25px;
     margin-right: 0px;
     margin-bottom: 25px;
-    display: inline-block
+    display: inline-block;
 }
 .history {
     width: 300px;
@@ -97,18 +97,18 @@ iframe {
 h3 {
     color: black;
     font-size: 1.5rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     display: flex;
     justify-content: center;
 }
 
 li {
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     display: inline;
     justify-content: center;
     margin: 0 25px;
-     color: $Negro;
+    color: $Negro;
 }
 
 .img2 {
